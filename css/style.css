@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.row
+{
+    --bs-gutter-x: 0rem !important;
+}
+#main-bg
+{
+    padding: 30px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    background: url('../image/main.jpeg');
+    background-position: center;
+
+}
+.main-head
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: fit-content;
+}
+.slogan
+{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+#signup-btn
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    text-align:center;
+    width: 100%;
+}
+#form-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .row
+{
+    --bs-gutter-x: 1.5rem !important;
+    
+}
+.form h4
+{
+    font-size: 26px;
+    font-weight: 600 !important;
+    margin-bottom: 40px;
+}
+.form label
+{
+    margin: 30px 0px 7px 0px ;
+    font-weight: 700 ;
+}
+.form input
+{
+    background-color: #e9e9e9 ;
+    border: none !important;
+}
+.form input:focus
+{
+    outline: 1px solid #e9e9e9;
+    box-shadow: none    ;
+}
+.form input[type="checkbox"]
+{
+    background-color: #e9e9e9;
+}
+.form input::placeholder
+{
+    font-size: 14px;
+}
+.form span
+{
+    color: #5e5ebf;
+}
+.form-check{
+    margin-top: 20px;
+    max-width: 500px;
+}
+.form-check-label
+{
+    margin:0px !important; 
+    font-weight: 500 !important;
+    font-size: 13px;
+}
+#link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.form button
+{
+    margin: 20px 0px 10px 0px !important;
+    background-color: #c3c3c3;
+    padding: 4px 30px !important;
+    color: white;
+    font-weight: 600 !important;
+    font-size: 14px;
+}
+.form p
+{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #b8b8b8  ;
+}
+
+@media (max-width:992px)
+{
+    #main-bg
+    {
+        height: 100px;
+        padding: 20px;
+        background: transparent;
+    }
+    .main-head
+    {
+        background-color: #ededed;
+    }
+    .form h4 
+    {
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .row
+    {
+    --bs-gutter-x: 0rem !important;
+    }
+    .form .row
+{
+    --bs-gutter-x: 0rem !important;
+    
+}
+#form-sec 
+{
+    padding: 10px 20px;
+}
+.form label
+{
+    margin: 20px 0 7px 0 ;
+}
+}
